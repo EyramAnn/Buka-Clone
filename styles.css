@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald' , sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+   
+}
+
+
+.main {
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    height: 80px;
+    left:  90px;
+    right:  100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 3;
+       
+}
+.main img{
+    width: 80px;
+    height: 60px;
+    top: 250px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.main ul {
+    list-style-type: none;
+    display: flex;
+    padding: 30px;
+    margin-right:  1px;
+    margin-left: 70px;
+}
+
+
+.main li a{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: white;
+    padding:38px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.main li a:hover {
+    color: rgb(60, 60, 230);
+}
+
+
+.smile{
+    position: relative;
+    width: 100%;
+    height: 200px;    
+}
+
+
+.overlay {
+    width: 100%;
+    height: 480%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+   
+}
+.logo {
+    position: relative;
+    width: 1350px;
+    height: 120px;  
+}
+
+
+
+
+.logo-note {
+    position: absolute;
+    width: 80%;
+    font-family: 'Oswald', sans-serif;
+    top: 430px;
+    left:130px;
+    text-align: center;
+    margin: auto;
+    color: white;
+   
+}
+
+
+.logo-note h2 {
+    font-family: 'Libre Baskeerville';
+    font-weight: lighter;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+
+.logo-note p {
+    font-family: 'Libre Baskeerville';
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+
+.story {
+    position: relative;
+    top: 760px;
+    height: 800px;
+    left: 0px;
+    right: 0px;
+    background-color: #f0f0f0;
+}
+
+
+.story-cover {
+    position: absolute;
+    top: 220px;
+    width: 950px;
+    height: 470px;
+    right: 90px;
+    background-color: #d8d6e2;  
+   
+}
+
+
+
+
+.story1 img {
+    position: relative;
+    top: 160px;
+    width: 520px;
+    height: 470px;
+    left: 210px;
+    z-index: 2000px;
+   
+   
+}
+
+
+
+
+.story-note {
+    position: absolute;
+    font-family: 'Libre Baskeerville';
+    color: #333333;
+    top: 100px;
+    right: 120px;
+   
+}
+
+
+.story-note h2 {
+    font-family: 'Libre Baskeerville';
+    font-weight:lighter;
+    font-size: 29px;
+    letter-spacing: 3px;
+
+
+}
+
+
+.story-note p {
+    font-family: 'Oswald';
+    color: #635e5e;
+    font-weight: light;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+}
+
+
+.story-note a{
+    text-decoration: none;
+    color:#635e5e ;
+    font-weight: lighter;
+}
+
+
+.story-note a:hover {
+    color: rgb(122, 64, 122);
+    text-decoration: underline;
+}
+
+
+
+
+.tradition {
+    position: relative;
+    top: 760px;
+    height: 800px;
+    left: 0px;
+    right: 0px;
+    background-color: #5f5c68;
+    color:white;
+
+
+   
+}
+
+
+.buka {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+   
+   
+
+
+}
+.buka-note1  h2{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-family: 'Libre Baskeerville';
+    font-weight: lighter ;
+    font-size: 27px;
+    z-index: 1;
+}
+
+
+.buka-note2  {
+    position: absolute;
+    top: 20px;
+    left:  485px;
+    font-family: 'Libre Baskeerville';
+    font-weight: light;
+    line-height: 1.9;
+    z-index: 1;
+
+
+}
+
+
+.buka-images {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    height: 450px;
+    left: 0;
+    right:0;
+   
+}
+
+
+.buka-image1 {
+    position: absolute;
+    top: 20px;
+    width: 290px;
+    left: 150px;
+    cursor: pointer;
+   
+
+
+}
+.buka-image2 {
+    position: absolute;
+    top: 20px;
+    width: min-content;
+    width: 350px;
+    height: 450px;
+    left:  485px;
+    cursor: pointer;
+
+
+}
+
+
+.buka-image3 {
+    position: absolute;
+    top: 20px;
+    width: 350px;
+    height: 450px;
+    right: 120px;
+    cursor: pointer;
+}
+
+
+.buka-image1 a:hover ,.buka-image2 a:hover , .buka-image1 a:hover {
+     transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+
+.overlay1 {
+    top: 0px;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+
+}
+
+
+.buka-image1 p , .buka-image2 p , .buka-image3 p {
+    position: absolute;
+    font-size: 13px;
+    top: 400px;
+    left: 35px;
+    letter-spacing: 2px;
+    z-index: 1;
+ 
+}
+.memories {
+    position: relative;
+    top: 760px;
+    width: 100%;
+    height: 500px;
+
+
+   
+
+
+}
+.heart {
+    position: absolute;  
+   
+}
+
+
+.memory-note {
+    position:absolute;
+    top: 290px;
+    right: 240px;
+    color:white;
+    z-index: 1;
+}
+
+
+.memory-note h2 {
+    font-family: 'Libre Baskeerville';
+    font-weight:lighter;
+    font-size: 29px;
+    line-height: 1.2;
+    z-index: 1;
+}
+
+
+.memory-note p {
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+    z-index: 1;
+}
+
+
+.memory-note a{
+    text-decoration: none;
+    color: white;
+    font-weight: 4px;
+}
+
+
+.memory-note a:hover {
+    color: rgb(122, 64, 122);
+    text-decoration: underline;
+}
+
+
+.overlay2 {
+    top: 0px;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+
+.footer {
+    position: relative;
+    top: 770px;
+    width: 100%;
+    height: 600px;
+    background-color: #222222;
+    left: 0;
+    right: 0;
+   
+}
+
+
+.find {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+
+.find img{
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left:120px;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+
+.find p {
+    position: absolute;
+    top: 87px;
+    left: 120px;
+    color: white;
+    font-weight: light;
+    word-spacing: 1.2;
+    line-height: 1.7;
+}
+
+
+.icons {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+
+
+.address {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+   
+}
+
+
+.address h3 {
+    position: absolute;
+    top: 67px;
+     left:800px;
+    color: white;
+    font-weight: light;
+    letter-spacing: 2px;  
+}
+
+
+.address p {
+    position: absolute;
+    top: 100px;
+    left:800px;
+    color: white;
+    font-weight: light;
+    letter-spacing: 2px;
+    line-height: 2;  
+}
+
+
+.times {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+
+
+.times h4 {
+    position: absolute;
+    top: 40px;
+    color: white;
+    left: 120px;
+}
+
+
+.times p {
+    position: absolute;
+    top: 75px;
+    color: white;
+    left: 120px;
+}
+
+
+.hello {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+}
+   
+.hell0 p {
+     position: absolute;
+    top: 50px;
+    right:8px;
+    color: white;
+    font-weight: light;  
+}
+
+
+.done {
+    position: absolute;
+    top:320px;
+    width: 100%;
+}
+
+
+.done h5 {
+    position: absolute;
+    top: 140px;
+    left: 490px;
+    font-size: 12px;
+    color: white;
+}
+
+
+
